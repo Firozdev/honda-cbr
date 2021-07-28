@@ -1,0 +1,21 @@
+# Use Bootstrap
+# Menu Optional (No Extra Marks)
+# Hero Button If Click Open a Modal (Text Purches related)
+# First and third Bike Gray Scale using css
+# Latest News Section Optional 
+# Asked Question Section Use Accrodian 
+# Footer Optional 
+# Mobile Responsive Must
+# For bonous marks
+  > 2 extra section before footer
+  > Html 5 Tag Use
+# Submission Requirment
+  > Git Private Repo
+  > Use Netlify for live site for submit assignment
+  > When Submit expalin the showing error of private repo must
+
+
+
+My error Private repo access : 
+
+There was an error accepting the assignment. Cannot make this private assignment, your limit of 10000 repositories has been reached. You can request a larger plan for free at https://education.github.com/discount . If this problem persists, please have the Classroom admin contact support.
