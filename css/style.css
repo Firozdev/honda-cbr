@@ -4,6 +4,19 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
 }
+.button-1{
+    background-color: #E76F51!important;
+    border-color: #E76F51!important;
+}
+.button-2{
+    background-color: #fff!important;
+    border-color: #E76F51!important;
+    color: #E76F51!important;
+}.button-2:hover{
+    background-color: #E76F51!important;
+    border-color: #E76F51!important;
+    color: #fff!important;
+}
 header{
     background-color: #264653;
     
