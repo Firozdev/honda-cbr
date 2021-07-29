@@ -48,3 +48,39 @@ footer {
     height: 40px;
     width: 127px;
 }
+@media (max-width: 576px) { 
+    .banner-text p{
+        font-size: 12px;
+    }
+    .banner-text{
+        margin-bottom: 40px;
+    }
+    .bike{
+        padding-bottom: 70px;
+    }
+    .latest-news{
+        padding-bottom: 20px;
+    }
+    .banner-image{
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    footer{
+        padding-bottom: 50px;
+    }
+    .footer-responsive{
+        display: flex;
+        justify-content: space-around;
+    }
+    .responsive-nav{
+        margin-top: -160px;
+    }
+    .getApp{
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+    small{
+        display: flex;
+        justify-content: center;
+    }
+ }

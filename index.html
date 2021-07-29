@@ -13,12 +13,12 @@
     <link rel="shortcut icon" href="images/fab.png" type="image/x-icon">
 </head>
 <body>
-    <header class="">
+    <header id="header">
         <!-- menu  -->
         <section class="container">
             <nav class="navbar navbar-expand-lg navbar-light pt-4">
                 <div class="container-fluid">
-                    
+                    <a class="navbar-brand text-light fw-bold" href="#">Honda CBR</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -27,16 +27,16 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item me-3">
-                                <a class="nav-link active text-white" aria-current="page" href="#">HOME</a>
+                                <a class="nav-link active text-white" aria-current="page" href="#header">HOME</a>
                             </li>
                             <li class="nav-item me-3">
-                                <a class="nav-link text-white" href="#">SHOP</a>
+                                <a class="nav-link text-white" href="#featured">SHOP</a>
                             </li>
                             <li class="nav-item me-3">
-                                <a class="nav-link text-white" href="#">NEWS</a>
+                                <a class="nav-link text-white" href="#news">NEWS</a>
                             </li>
                             <li class="nav-item pe-5">
-                                <a class="nav-link text-white" href="#">CONTACT</a>
+                                <a class="nav-link text-white" href="#contact">CONTACT</a>
                             </li>
                             <li class="nav-item">
                                 <button type="button" class="btn btn-danger button-1">Login</button>
@@ -90,7 +90,7 @@
     </header>
     <main>
         <!-- featuers bike -->
-        <section class="container mt-5">
+        <section class="container mt-5" id="featured">
             <div class="text-center">
                 <h1>Fetured Bikes 2021</h1>
                 <p class="text-danger collection-subhead">Best bike collection</p>
@@ -108,7 +108,7 @@
             </div>
         </section>
         <!-- latest-news  -->
-        <section class="container py-5 mt-5">
+        <section class="container py-5 mt-5" id="news">
             <h2 class="text-center">Latest News</h2>
             <div class="row pt-5">
                 <div class="latest-news col-lg-4 d-flex justify-content-center">
@@ -214,9 +214,9 @@
         </section>
         <!-- asked question -->
         <section class="container py-5">
-            <h2 class="text-center">Frequently Asked <span class="text-danger">Questions</span></h2>
+            <h2 class="text-center">Frequently Asked <span style="color: #E76F51;">Questions</span></h2>
             <div class="row pt-5">
-                <div class="col-lg-6 col-sm-12">
+                <div class="col-lg-6 col-sm-12 banner-image">
                     <img src="images/faq.png" class="img-fluid w-75" alt="">
                 </div>
                 <div class="col-lg-6 col-sm-12">
@@ -306,41 +306,79 @@
                 </div>
             </div>
         </section>
+        <!-- Contact form  -->
+        <section class="container py-5" id="contact">
+            <h2 class="text-center py-5">Write Your <span style="color: #E76F51;">Queri</span></h2>
+            <div>
+                <form class="row g-3">
+                    <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Phone</label>
+                        <input type="phone" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-12">
+                    <label for="inputAddress" class="form-label">Features Request</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Body Kit Larger">
+                    </div>
+                    <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Why you are interest for this featuers ?</label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Safety , Secure">
+                    </div>
+                    <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Model Name</label>
+                    <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-6">
+                    <label for="inputState" class="form-label">Model Year</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>2021</option>
+                        <option>2020</option>
+                        <option>2019</option>
+                        <option>2018</option>
+                    </select>
+                    </div>
+                    <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                        Check me out
+                        </label>
+                    </div>
+                    </div>
+                    <div class="col-12">
+                    <button type="submit" class="btn btn-primary button-1">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
-    <footer class="pt-5">
+    <footer class="pt-5" id="footer">
         <section class="container">
             <div class="row">
-                <div class="col-lg-8">
-                    <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="col-lg-8 footer-responsive">
+                    <nav class="navbar navbar-expand-lg navbar-light responsive-nav">
                         <div class="container">
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                                aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarNav">
-                                <ul class="navbar-nav footer-menu">
-                                    <li class="nav-item ">
-                                        <a class="nav-link active text-white" aria-current="page" href="#">Download
+                            <div class="" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active text-white" href="#">Download
                                             Now</a>
                                     </li>
-                                    <li class="nav-item ">
-                                        <a class="nav-link active text-white" aria-current="page" href="#">License</a>
+                                    <li class="nav-item">
+                                        <a class="nav-link active text-white" href="#">License</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </nav>
-
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <div class="container">
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                                aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarNav">
-                                <ul class="navbar-nav footer-menu">
+                            
+                            <div class="" id="navbarNav">
+                                <ul class="navbar-nav">
                                     <li class="nav-item ">
                                         <a class="nav-link active text-white" aria-current="page" href="#">About</a>
                                     </li>
@@ -365,16 +403,20 @@
                         </div>
 
                     </nav>
-                    <small class="text-white pt-2 fw-light copyright">copyright © 2020 bike. All rights reserved</small>
                 </div>
-                <div class="col-lg-4 d-flex justify-content-end footer-image">
+                <div class="col-lg-4 d-flex justify-content-end">
                     <div class="getApp">
-                        <h4 class="text-white mb-4">Get the App</h4>
-                        <img src="images/apple.png" class="img-fluid" alt=""><br><br>
-                        <img src="images/apple.png" class="img-fluid" alt=""><br>
+                        <div>
+                            <h4 class="text-white mb-4">Get the App</h4>
+                        </div>
+                        <div>
+                            <img src="images/apple.png" class="img-fluid" alt=""><br><br>
+                            <img src="images/apple.png" class="img-fluid" alt=""><br>
+                        </div>
                     </div>
                 </div>
             </div>
+            <small class="text-white pt-2 fw-light copyright">copyright © 2020 bike. All rights reserved</small>
         </section>
     </footer>
     <!-- bootstrap js -->
